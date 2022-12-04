@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
               Image.network(photos.elementAt(i)),
             Positioned(
-              left:100,
+              left:50,
             top:200,
             child: Text(names.elementAt(i),
 
