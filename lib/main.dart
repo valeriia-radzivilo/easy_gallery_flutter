@@ -48,10 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
             children:<Widget>[
 
               Image.network(photos.elementAt(i)),
-            Container(
-                padding: const EdgeInsets.all(100),
-            child:Positioned(
-              left:1000,
+            Positioned(
+              left:100,
             top:200,
             child: Text(names.elementAt(i),
 
@@ -62,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
             )
 
             ),
-            )
+
             ]
           ),
 
